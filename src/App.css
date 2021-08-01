@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+.container {
+  background: #bd7070;
+  height: 98vh;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0px;
+  padding-top: 0px;
+  /* margin: 10px; */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container > div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 2em;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 100px;
+}
+.AuthenticationField {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: #ecf0f3;
+}
+.loginButton {
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+  height: 50px;
+  width: 100px;
+  margin-right: 5px;
+  cursor: pointer;
+  color: #555;
+  border: none;
+  font-family: "Lato", sans-serif;
+}
+.RegistrationButton {
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  color: #555;
+  border: none;
+  font-family: "Lato", sans-serif;
+}
+.LoginContainer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: #ecf0f3;
+}
+.title {
+  font-family: "Lato", sans-serif;
+}
+.sub-title {
+  opacity: 0.5;
+  font-size: 20px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20x #5f5f5f, 0px 0px 0px 20x #ecf0f3, 8px 8px 15x #a7aaaf,
+    -8px -8px 15px #ffffff;
+}
+.Login-div {
+  top: 20px;
+  margin-top: 20px;
+  height: 700px;
+  width: 430px;
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  /* background: #ecf0f3; */
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+.fields {
+  width: 100%;
+  padding: 75px 5px 5px 5px;
+}
+.fields input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 20px;
+  color: #555;
+  padding: 20px 10px 20px 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.username,
+.password {
+  display: flex;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 20px #ffffff;
+}
+.signin-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  background: #24cfaa;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+.signin-button:hover {
+  background: #2fdbb6;
+}
+.signin-button:active {
+  background: #1da88a;
+}
+.loginButton {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  margin-right: 15px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  background: #24cfaa;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+.loginButton:hover {
+  background: #2fdbb6;
+}
+.loginButton:active {
+  background: #1da88a;
+}
+.RegistrationButton {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  margin-right: 15px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  background: #24cfaa;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+.RegistrationButton:hover {
+  background: #2fdbb6;
+}
+.RegistrationButton:active {
+  background: #1da88a;
+}
+.forget-pass {
+  margin-top: 25px;
+  font-size: 17px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.forget-pass:hover {
+  opacity: 0.9;
 }
