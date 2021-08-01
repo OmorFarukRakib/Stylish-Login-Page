@@ -6,7 +6,7 @@ import VpnKeyIcon from "@material-ui/icons/VpnKey";
 import EmailIcon from "@material-ui/icons/Email";
 const RegistrationDiv = () => {
   return (
-    <div className="Login-div" style={{height: "800px"}}>
+    <div className="Login-div" style={{ height: "680px" }}>
       <div className="logo">
         <RestaurantIcon style={{ fontSize: 100, color: "#24cfaa" }} />
       </div>
