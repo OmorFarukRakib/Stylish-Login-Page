@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import LoginDiv from "./LoginDiv";
 import RegistrationDiv from "./RegistrationDiv";
+import AuthenticationField from "./AuthenticationField";
 import { useTransition, animated } from "react-spring";
 // enter: { x: 0, y: 0, opacity: 1 , width: 100},
 function App() {
@@ -34,17 +35,10 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className="AuthenticationField">
-          <button className="loginButton" onClick={handleLoginButton}>
-            Login
-          </button>
-          <button
-            className="RegistrationButton"
-            onClick={handleRegistrationButton}
-          >
-            Registration
-          </button>
-        </div>
+        <AuthenticationField
+          handleLoginButton={handleLoginButton}
+          handleRegistrationButton={handleRegistrationButton}
+        />
         <div className="LoginContainer">
           {transitionForLogin((style, item) =>
             item ? (
