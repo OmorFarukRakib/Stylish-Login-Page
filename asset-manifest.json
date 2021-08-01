@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Stylish-Login-Page/static/css/main.6b18bdff.chunk.css",
-    "main.js": "/Stylish-Login-Page/static/js/main.95a59364.chunk.js",
-    "main.js.map": "/Stylish-Login-Page/static/js/main.95a59364.chunk.js.map",
+    "main.css": "/Stylish-Login-Page/static/css/main.81a5d8d9.chunk.css",
+    "main.js": "/Stylish-Login-Page/static/js/main.a2e53c2e.chunk.js",
+    "main.js.map": "/Stylish-Login-Page/static/js/main.a2e53c2e.chunk.js.map",
     "runtime-main.js": "/Stylish-Login-Page/static/js/runtime-main.1bd10164.js",
     "runtime-main.js.map": "/Stylish-Login-Page/static/js/runtime-main.1bd10164.js.map",
     "static/js/2.e1d9b477.chunk.js": "/Stylish-Login-Page/static/js/2.e1d9b477.chunk.js",
     "static/js/2.e1d9b477.chunk.js.map": "/Stylish-Login-Page/static/js/2.e1d9b477.chunk.js.map",
     "index.html": "/Stylish-Login-Page/index.html",
-    "static/css/main.6b18bdff.chunk.css.map": "/Stylish-Login-Page/static/css/main.6b18bdff.chunk.css.map",
+    "static/css/main.81a5d8d9.chunk.css.map": "/Stylish-Login-Page/static/css/main.81a5d8d9.chunk.css.map",
     "static/js/2.e1d9b477.chunk.js.LICENSE.txt": "/Stylish-Login-Page/static/js/2.e1d9b477.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1bd10164.js",
     "static/js/2.e1d9b477.chunk.js",
-    "static/css/main.6b18bdff.chunk.css",
-    "static/js/main.95a59364.chunk.js"
+    "static/css/main.81a5d8d9.chunk.css",
+    "static/js/main.a2e53c2e.chunk.js"
   ]
 }
